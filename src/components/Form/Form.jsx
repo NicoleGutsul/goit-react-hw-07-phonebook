@@ -12,7 +12,7 @@ const Form = () => {
             numbers.some(
                 contact =>
                   contact.name.toLocaleLowerCase() ===
-                  form.elements.name.value.toLocaleLowercase()
+                  form.elements.name.value.toLocaleLowerCase()
             )
         ) {
             window.alert(form.elements.name.value + 'is already in contacts');
